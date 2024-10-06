@@ -1,0 +1,24 @@
+-- OPTIONS
+vim.g.mapleader = " "
+vim.opt.compatible = false
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+vim.opt.tags = './.tags;./tags;,tags'
+vim.opt.scrolloff = 999
+vim.opt.wrap = false
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.numberwidth = 4
+vim.opt.cursorline = true
+vim.opt.splitbelow = true
+vim.opt.splitright = true
+-- vim.opt.showtabline = 2
+vim.opt.mouse = ''
+vim.opt.clipboard = 'unnamedplus'
+vim.opt.undofile = true
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = true
+vim.opt.autoindent = true
+-- vim.opt.shell = '/usr/bin/bash'
+vim.opt.encoding = 'utf-8'
