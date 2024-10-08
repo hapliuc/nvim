@@ -16,10 +16,12 @@ return {
         }
       }
     })
+    require'lspconfig'.clangd.setup{}
     require'lspconfig'.pylsp.setup{
       capabilities = capabilities
     }
-    require'lspconfig'.phpactor.setup{
-    }
+    require'lspconfig'.phpactor.setup{}
+    require'lspconfig'.bashls.setup{}
+    require'lspconfig'.emmet_language_server.setup{}
   end,
 }
